@@ -1,0 +1,13 @@
+# LLM access (Google Gemini, official SDK)
+google-genai
+python-dotenv
+
+# arXiv search (no API key needed)
+arxiv
+
+# Data models
+pydantic
+
+# Optional: notebooks
+notebook
+ipykernel

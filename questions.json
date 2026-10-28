@@ -1,0 +1,84 @@
+{
+  "_note": "Test set for the research pipeline. 'expected_papers' are well-known arXiv papers a good literature search on the topic should usually find. The lists are a rough signal, not a complete answer key: a report can be good without them, especially for questions about recent work.",
+  "questions": [
+    {
+      "id": "q01_self_reflection",
+      "type": "narrow",
+      "question": "What are recent approaches to self-reflection in LLM agents?",
+      "expected_papers": {
+        "2303.11366": "Reflexion",
+        "2303.17651": "Self-Refine",
+        "2305.11738": "CRITIC"
+      }
+    },
+    {
+      "id": "q02_tool_use",
+      "type": "narrow",
+      "question": "How do LLM agents learn to use external tools and APIs?",
+      "expected_papers": {
+        "2302.04761": "Toolformer",
+        "2305.15334": "Gorilla",
+        "2210.03629": "ReAct"
+      }
+    },
+    {
+      "id": "q03_rag_eval",
+      "type": "narrow",
+      "question": "How can retrieval-augmented generation systems be evaluated automatically?",
+      "expected_papers": {
+        "2309.15217": "RAGAS",
+        "2311.09476": "ARES"
+      }
+    },
+    {
+      "id": "q04_llm_judge",
+      "type": "narrow",
+      "question": "How reliable are LLMs as judges for evaluating the outputs of other models?",
+      "expected_papers": {
+        "2306.05685": "Judging LLM-as-a-Judge (MT-Bench)",
+        "2303.16634": "G-Eval"
+      }
+    },
+    {
+      "id": "q05_multiagent_debate",
+      "type": "narrow",
+      "question": "Does debate between multiple LLM agents improve factual accuracy and reasoning?",
+      "expected_papers": {
+        "2305.14325": "Multiagent Debate (Du et al.)"
+      }
+    },
+    {
+      "id": "q06_reasoning_prompting",
+      "type": "broad",
+      "question": "Which prompting methods improve multi-step reasoning in large language models?",
+      "expected_papers": {
+        "2201.11903": "Chain-of-Thought Prompting",
+        "2203.11171": "Self-Consistency",
+        "2305.10601": "Tree of Thoughts"
+      }
+    },
+    {
+      "id": "q07_hallucination_detection",
+      "type": "narrow",
+      "question": "How can hallucinations in LLM outputs be detected without access to model internals?",
+      "expected_papers": {
+        "2303.08896": "SelfCheckGPT"
+      }
+    },
+    {
+      "id": "q08_model_routing",
+      "type": "narrow",
+      "question": "What are the trade-offs between cost and quality when routing queries between small and large LLMs?",
+      "expected_papers": {
+        "2305.05176": "FrugalGPT",
+        "2406.18665": "RouteLLM"
+      }
+    },
+    {
+      "id": "q09_italian_legal",
+      "type": "hard",
+      "question": "How are large language models used to analyze Italian legal documents?",
+      "expected_papers": {}
+    }
+  ]
+}
